@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+* {
+    font-family: 'Montserrat', sans-serif;
+    color: #E4D192;
+}
+
+/* Materialize overrides */
+
+nav {
+    padding: 0 10px;
+}
+
+#color {
+    color: #E4D192;
+}
+
+#name {
+    color: #E4D192;
+    background-color: rgb(175, 122, 179, .7);
+}
+
+h5 {
+    font-size: large;
+}
+
+
+/* colors <3 */
+
+.primary {
+    background-color: #80558C;
+}
+
+.secondary {
+    background-color: #AF7AB3;
+}
+
+.secondary-pink {
+    background-color: #CBA0AE;
+}
+
+.secondary-yellow {
+    background-color: #E4D192;
+}
+
+/* Flex Properties */
+
+.d-flex {
+    display: flex;
+}
+
+.flex-1 {
+    flex: 1;
+}
+
+.flex-2 {
+    flex: 2;
+}
+
+.flex-3 {
+    flex: 3;
+}
+
+/* content css */
+
+.main {
+    margin: 0 auto;
+    margin-top: 25px;
+    width: 80%;
+    /* height: 1000px; */
+}
+
+.border-round {
+    border-radius: 10%;
+}
