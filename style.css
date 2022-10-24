@@ -2,7 +2,7 @@
 
 * {
     font-family: 'Montserrat', sans-serif;
-    color: #E4D192;
+    color: #a10365;
 }
 
 /* Materialize overrides */
@@ -24,6 +24,41 @@ h5 {
     font-size: large;
 }
 
+.card-panel {
+    margin: 0;
+    /* margin-bottom: 40px; */
+}
+
+.card {
+    margin: 0;
+}
+
+.card-title {
+    margin: 0;
+    font-size: 30px;
+    font-weight: 300;
+    /* margin-top: 5px; */
+    padding: 2px 15px;
+}
+
+span {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.w-50 {
+    width: 50%;
+}
+
+.mb-20 {
+    margin-bottom: 20px;
+}
+
+.mb-40 {
+    margin-bottom: 40px;
+}
+
 
 /* colors <3 */
 
@@ -41,6 +76,10 @@ h5 {
 
 .secondary-yellow {
     background-color: #E4D192;
+}
+
+.card {
+    background-color: transparent;
 }
 
 /* Flex Properties */
@@ -72,4 +111,13 @@ h5 {
 
 .border-round {
     border-radius: 10%;
+}
+
+.right-c {
+    margin-left: 20px;
+}
+
+.card-title {
+    color: #E4D192;
+    background-color: rgba(175, 122, 179, .7);
 }
