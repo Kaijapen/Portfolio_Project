@@ -49,8 +49,12 @@ nav ul a{
     position: static;
 }
 
+.card-image {
+    z-index: -100;
+}
+
 .card .card-image img {
-    position: static;
+    position: sticky;
 }
 
 .card .card-image .card-title {
@@ -62,7 +66,6 @@ nav ul a{
     margin: 0;
     font-size: 30px;
     font-weight: 300;
-    /* margin-top: 5px; */
     padding: 2px 15px;
 }
 
