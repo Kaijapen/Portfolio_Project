@@ -1,14 +1,16 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
 * {
     font-family: 'Montserrat', sans-serif;
-    color: #a10365;
+    color: #5e276e;
 }
 
 /* Materialize overrides */
 
 nav {
     padding: 0 10px;
+    position: fixed;
+    top: 0;
 }
 
 #color {
@@ -21,16 +23,39 @@ nav {
 }
 
 h5 {
-    font-size: large;
+    font-size: 18pt;
+    font-weight: bold;
+    margin-top: 0;
+}
+
+h6 {
+    font-weight: bold;
+}
+
+p {
+    font-size: 13pt;
+}
+
+nav ul a{
+    color: #E4D192;
 }
 
 .card-panel {
     margin: 0;
-    /* margin-bottom: 40px; */
 }
 
 .card {
     margin: 0;
+    position: static;
+}
+
+.card .card-image img {
+    position: static;
+}
+
+.card .card-image .card-title {
+    position: absolute;
+    background-color: rgb(175, 122, 179, .7);
 }
 
 .card-title {
@@ -47,8 +72,14 @@ span {
     align-items: center;
 }
 
-.w-50 {
-    width: 50%;
+/* Margin and width */
+
+.main {
+    margin-top: 100px;
+}
+
+.w-70 {
+    width: 70%;
 }
 
 .mb-20 {
@@ -61,6 +92,10 @@ span {
 
 
 /* colors <3 */
+
+.y-color {
+    color: #E4D192;
+}
 
 .primary {
     background-color: #80558C;
@@ -104,7 +139,7 @@ span {
 
 .main {
     margin: 0 auto;
-    margin-top: 25px;
+    margin-top: 90px;
     width: 80%;
     /* height: 1000px; */
 }
